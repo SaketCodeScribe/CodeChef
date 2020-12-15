@@ -19,7 +19,7 @@ ll Calcbgold(map& dp, ll n){
 int main() {
 	// your code goes here
 	ll n, i;
-    map dp={};
+    	map dp={};
 	while(cin>>n){
         Calcbgold(dp, n);
 	    cout<<dp[n]<<endl;
